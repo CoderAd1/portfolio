@@ -1,0 +1,26 @@
+
+
+{
+  "name": "adwaith-portfolio",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "homepage": "https://CoderAd1.github.io/adwaith-portfolio", 
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "lucide-react": "^0.554.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.22",
+    "gh-pages": "^6.3.0",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.17"
+  }
+}
